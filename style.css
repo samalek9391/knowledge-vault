@@ -231,5 +231,31 @@
     display: flex;
     justify-content: left;
     gap: 5px;
+ }
+ /*think section*/
 
+ #think {
+    margin: 120px;
+ }
+
+ .think-container {
+    text-align: center;
+    background-color: #F7F6F2;
+    padding: 80px 40px;
+ }
+
+ .think-container h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+ }
+
+ .think-container button {
+    margin-bottom: 16px;
+ }
+ .think-container p {
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 24px;
  }
