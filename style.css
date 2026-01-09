@@ -54,9 +54,9 @@
 }
 
 .nav-bar .btn:hover {
-    background: #000000;
-    border: 1px solid #ffffff;
-    color: #ffffff;
+    background: #ffffff;
+    border: 1px solid #000000;
+    color: #469165;
 }
 
 /*Banner-Section*/
@@ -119,13 +119,14 @@
 }
 
 .banner-btn .btn:hover {
-    background: none;
+    background: #ffffff;
     border: 1px solid #ffffff;
-    color: #ffffff;
+    color: #469165;
 }
 .banner-btn .btn-1:hover {
-    background-color: #469165;
-    color: #ffffff;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    color: #469165;
 }
  /*Notes Section*/
 
@@ -256,8 +257,8 @@
  }
 
  .think-container button:hover {
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #469165;
 }
 
 
@@ -297,6 +298,10 @@
     width: 20px;
     height: 20px;
     border-radius: 50px;
+ }
+
+ .footer-container .social-link .social-icon a:hover {
+    color: #469165;
  }
 
  .copyright {
