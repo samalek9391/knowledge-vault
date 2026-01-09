@@ -13,7 +13,6 @@
     margin: 16px 120px;
     display: flex;
     justify-content: space-between;
-    border: 1px solid red;
     align-items: center;
 }
 .nav-link {
@@ -242,6 +241,7 @@
     text-align: center;
     background-color: #F7F6F2;
     padding: 80px 40px;
+    margin: 120px 120px 0px;
  }
 
  .think-container h2 {
@@ -254,8 +254,60 @@
  .think-container button {
     margin-bottom: 16px;
  }
+
+ .think-container button:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
  .think-container p {
     font-size: 16px;
     color: #627382;
     margin-bottom: 24px;
+ }
+
+ /*Footer-Section*/
+
+ #footer {
+    background-color: #001931;
+ }
+ .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 240px 120px;
+ }
+
+ .footer-container .social-link p {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 16px;
+ }
+
+ .footer-container .social-link .social-icon {
+    display: flex;
+    gap: 16px;
+ }
+
+ .footer-container .social-link .social-icon a {
+    color: #ffffff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+ }
+
+ .copyright {
+    padding: 80px 240px 30px;
+    text-align: center;
+ }
+
+ .bar {
+    padding: 0px 240px;
+ }
+
+ .copyright p {
+    color: #FAFAFA;
  }
